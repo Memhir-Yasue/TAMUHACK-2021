@@ -1,0 +1,7 @@
+<!--The onlogin attribute on the button to set up a JavaScript callback
+that checks the login status to see if the person logged in successfully:-->
+
+<fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
