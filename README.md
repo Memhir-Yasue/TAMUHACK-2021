@@ -1,10 +1,3 @@
-1. Install Node.js
-2. Do the steps below
-3. Install react libraries:
-   npm i request-promise
-   npm i cheerio
-   npm install react-bootstrap bootstrap
-   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
