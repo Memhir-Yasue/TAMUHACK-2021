@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
         return <div>
             <Jumbotron className='dashboard' style={{color: 'white'}}>
                 <h1>29,577,902 People Vaccinated in the US</h1>
-                <h3 style={{color: '#4ecc4e'}}>56 friends have vaccinated</h3>
+                <h3 style={{color: '#4ecc4e'}}>56 friends vaccinated</h3>
                 <h3 style={{color: 'yellow'}}>156 friends pledged to get vaccinated</h3>
             </Jumbotron>
         </div>

@@ -22,13 +22,13 @@ class Home extends React.Component {
                 <Friends></Friends>
                 <h2 className="text-center" style={{marginTop: '50px', marginBottom: '50px'}}>Which one are you?</h2>
                 <Button onClick={() => this.setState( {taking: true})} variant="success" size="lg" block>
-                    Take the vaccine
+                   I Pledge To Take The Vaccine
                 </Button>
                 <Button onClick={() => this.setState( {undecided: true})} variant="warning" size="lg" block>
-                    Undecided/Later
+                    I am Undecided
                 </Button>
                 <Button style={{marginBottom: '20px'}} onClick={() => this.setState({taken: true})} variant="primary" size="lg" block>
-                    Taken Already
+                    I Have Taken It Already
                 </Button>
                 {this.state.taking ? <Location/> : null}
                 {this.state.taken ? <Taken/> : null}

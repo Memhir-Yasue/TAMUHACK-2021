@@ -5,7 +5,16 @@ class Bar extends React.Component {
     render() {
         return <div>
             <Navbar collapseOnSelect expand="lg" style={{color: 'white', backgroundColor: 'black'}} variant="dark">
-            <Navbar.Brand href="#home">VaccineTrust</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + '/vaccineTrust.png'}
+                    style={{borderRadius: '5px', marginRight: '7px'}}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                />VaccineTrust
+                </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

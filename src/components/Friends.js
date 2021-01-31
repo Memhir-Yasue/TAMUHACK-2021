@@ -9,7 +9,7 @@ class Friends extends React.Component {
     render() {
         return(
             <div className="text-center" style={{marginBottom: '50px', marginTop: '50px'}}>
-                <h3 style={{marginBottom: '30px'}}>Friends Who Just got Vaccinated</h3>
+                <h2 style={{marginBottom: '30px'}}>Your Friends Who Just got Vaccinated</h2>
                <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
