@@ -10,13 +10,13 @@ import app from 'firebase/app'
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyBl36mNJtRvH1rBP9OJ28Ex5DLFwKWk-T0",
-    authDomain: "vaccinetrust-e6cfc.firebaseapp.com",
-    projectId: "vaccinetrust-e6cfc",
-    storageBucket: "vaccinetrust-e6cfc.appspot.com",
-    messagingSenderId: "1060240975738",
-    appId: "1:1060240975738:web:921e3da099e85295b9d8c3",
-    measurementId: "G-NT82YZEKPE"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
 
   // Create Firebase class
